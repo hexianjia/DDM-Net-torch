@@ -9,15 +9,15 @@ Official Pytorch Code base for "Complex agricultural parcel boundary extraction 
 In this paper, we propose a semantic segmentation network named DDM-Net with three techniques to handle these issues. First, a dual-feature attention (DFA) module is employed between the encoder and decoder to extract category and multi-scale information.  It reduces the detail feature loss caused by multi-layer convolution and pooling to improve the recognition of blurred boundaries. Second, a new multi-feature extraction and fusion (MEF) module is proposed. It reduces the influence of irrelevant information for effective adaptation to complex agricultural parcel boundaries. Third, a dual-task network is designed, with the primary and auxiliary tasks devoting to boundary and mask mappings, respectively. This pairwise task provides dual perspectives to comprehensively capture complex agricultural parcels features, improving boundary continuity.
 
 <p align="center">
-  <img src="DDM-Net.png" width="800"/>
+  <img src="images/DDM-Net.png" width="800"/>
 </p>
 
 <p align="center">
-  <img src="MEF.png" width="800"/>
+  <img src="images/MEF.png" width="800"/>
 </p>
 
 <p align="center">
-  <img src="result.png" width="800"/>
+  <img src="images/result.png" width="800"/>
 </p>
 
 
